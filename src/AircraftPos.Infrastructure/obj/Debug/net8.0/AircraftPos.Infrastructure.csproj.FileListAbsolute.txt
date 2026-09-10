@@ -1,0 +1,17 @@
+D:\AircraftPos\src\AircraftPos.Infrastructure\bin\Debug\net8.0\AircraftPos.Infrastructure.deps.json
+D:\AircraftPos\src\AircraftPos.Infrastructure\bin\Debug\net8.0\AircraftPos.Infrastructure.dll
+D:\AircraftPos\src\AircraftPos.Infrastructure\bin\Debug\net8.0\AircraftPos.Infrastructure.pdb
+D:\AircraftPos\src\AircraftPos.Infrastructure\bin\Debug\net8.0\AircraftPos.Application.dll
+D:\AircraftPos\src\AircraftPos.Infrastructure\bin\Debug\net8.0\AircraftPos.Domain.dll
+D:\AircraftPos\src\AircraftPos.Infrastructure\bin\Debug\net8.0\AircraftPos.Application.pdb
+D:\AircraftPos\src\AircraftPos.Infrastructure\bin\Debug\net8.0\AircraftPos.Domain.pdb
+D:\AircraftPos\src\AircraftPos.Infrastructure\obj\Debug\net8.0\AircraftPos.Infrastructure.csproj.AssemblyReference.cache
+D:\AircraftPos\src\AircraftPos.Infrastructure\obj\Debug\net8.0\AircraftPos.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\AircraftPos\src\AircraftPos.Infrastructure\obj\Debug\net8.0\AircraftPos.Infrastructure.AssemblyInfoInputs.cache
+D:\AircraftPos\src\AircraftPos.Infrastructure\obj\Debug\net8.0\AircraftPos.Infrastructure.AssemblyInfo.cs
+D:\AircraftPos\src\AircraftPos.Infrastructure\obj\Debug\net8.0\AircraftPos.Infrastructure.csproj.CoreCompileInputs.cache
+D:\AircraftPos\src\AircraftPos.Infrastructure\obj\Debug\net8.0\Aircraft.921C0053.Up2Date
+D:\AircraftPos\src\AircraftPos.Infrastructure\obj\Debug\net8.0\AircraftPos.Infrastructure.dll
+D:\AircraftPos\src\AircraftPos.Infrastructure\obj\Debug\net8.0\refint\AircraftPos.Infrastructure.dll
+D:\AircraftPos\src\AircraftPos.Infrastructure\obj\Debug\net8.0\AircraftPos.Infrastructure.pdb
+D:\AircraftPos\src\AircraftPos.Infrastructure\obj\Debug\net8.0\ref\AircraftPos.Infrastructure.dll

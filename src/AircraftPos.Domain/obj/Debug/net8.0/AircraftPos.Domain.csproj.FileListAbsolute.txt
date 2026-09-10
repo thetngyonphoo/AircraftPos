@@ -1,0 +1,11 @@
+D:\AircraftPos\src\AircraftPos.Domain\bin\Debug\net8.0\AircraftPos.Domain.deps.json
+D:\AircraftPos\src\AircraftPos.Domain\bin\Debug\net8.0\AircraftPos.Domain.dll
+D:\AircraftPos\src\AircraftPos.Domain\bin\Debug\net8.0\AircraftPos.Domain.pdb
+D:\AircraftPos\src\AircraftPos.Domain\obj\Debug\net8.0\AircraftPos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\AircraftPos\src\AircraftPos.Domain\obj\Debug\net8.0\AircraftPos.Domain.AssemblyInfoInputs.cache
+D:\AircraftPos\src\AircraftPos.Domain\obj\Debug\net8.0\AircraftPos.Domain.AssemblyInfo.cs
+D:\AircraftPos\src\AircraftPos.Domain\obj\Debug\net8.0\AircraftPos.Domain.csproj.CoreCompileInputs.cache
+D:\AircraftPos\src\AircraftPos.Domain\obj\Debug\net8.0\AircraftPos.Domain.dll
+D:\AircraftPos\src\AircraftPos.Domain\obj\Debug\net8.0\refint\AircraftPos.Domain.dll
+D:\AircraftPos\src\AircraftPos.Domain\obj\Debug\net8.0\AircraftPos.Domain.pdb
+D:\AircraftPos\src\AircraftPos.Domain\obj\Debug\net8.0\ref\AircraftPos.Domain.dll

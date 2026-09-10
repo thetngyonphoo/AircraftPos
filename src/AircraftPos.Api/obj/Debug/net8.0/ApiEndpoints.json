@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "AircraftPos.Api.Controllers.PosReportController",
+    "Method": "ReceivePosReport",
+    "RelativePath": "pos-reports",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
