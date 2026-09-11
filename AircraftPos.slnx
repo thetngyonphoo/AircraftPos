@@ -2,6 +2,7 @@
   <Folder Name="/src/">
     <Project Path="src/AircraftPos.Api/AircraftPos.Api.csproj" />
     <Project Path="src/AircraftPos.Application/AircraftPos.Application.csproj" />
+    <Project Path="src/AircraftPos.CalculatorLambda/AircraftPos.CalculatorLambda.csproj" />
     <Project Path="src/AircraftPos.Domain/AircraftPos.Domain.csproj" />
     <Project Path="src/AircraftPos.Infrastructure/AircraftPos.Infrastructure.csproj" />
     <Project Path="src/AircraftPos.ParserLambda/AircraftPos.ParserLambda.csproj" />
