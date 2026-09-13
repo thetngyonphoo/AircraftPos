@@ -22,38 +22,41 @@ AircraftPos/
 ## Architecture
 
 ```text
-                    ┌──────────────┐
-                    │ API Gateway  │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │  API Lambda  │
-                    └──────┬───────┘
-                           │
-              ┌────────────┼────────────┐
-              ▼            ▼             ▼
-       Parsed DynamoDB  Calculation   S3
-                        Results
-                        DynamoDB
-
-
-S3 (pos/)
-     │
-     ▼
-Parser Lambda
-     │
-     ▼
-    SQS
-     │
-     ▼
+      Client
+   │
+   │ POST POS report
+   ▼
+API Gateway
+   │
+   ▼
+API Lambda
+   │
+   ├──────────────► S3 (raw POS message)
+   │
+   ▼
+Parser / processing
+   │
+   ▼
+SQS
+   │
+   ▼
 Calculator Lambda
-     │
-     ├──────────────► Parsed DynamoDB
-     │
-     ├──────────────► Calculation Results DynamoDB
-     │
-     └──────────────► S3
+   │
+   ├──────────────► Parsed DynamoDB
+   ├──────────────► Calculation Results DynamoDB
+   └──────────────► S3
+                        
+
+Client
+   │
+   │ GET /status/{flightId}
+   ▼
+API Gateway
+   │
+   ▼
+API Lambda
+   │
+   └──────────────► DynamoDB / S3
 ```
 
 ## Technologies
