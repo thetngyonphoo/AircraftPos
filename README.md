@@ -19,6 +19,43 @@ AircraftPos/
 └── README.md
 ```
 
+## Architecture
+
+```text
+                    ┌──────────────┐
+                    │ API Gateway  │
+                    └──────┬───────┘
+                           │
+                           ▼
+                    ┌──────────────┐
+                    │  API Lambda  │
+                    └──────┬───────┘
+                           │
+              ┌────────────┼────────────┐
+              ▼            ▼             ▼
+       Parsed DynamoDB  Calculation   S3
+                        Results
+                        DynamoDB
+
+
+S3 (pos/)
+     │
+     ▼
+Parser Lambda
+     │
+     ▼
+    SQS
+     │
+     ▼
+Calculator Lambda
+     │
+     ├──────────────► Parsed DynamoDB
+     │
+     ├──────────────► Calculation Results DynamoDB
+     │
+     └──────────────► S3
+```
+
 ## Technologies
 
 - .NET 8 / C#
