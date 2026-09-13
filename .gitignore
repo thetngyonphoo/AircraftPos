@@ -6,6 +6,10 @@
 **/bin/
 **/obj/
 
+# Allow CDK source bin folder
+!infra/bin/
+!infra/bin/**
+
 # User-specific files
 *.user
 *.suo
