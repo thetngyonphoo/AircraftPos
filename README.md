@@ -2,19 +2,6 @@
 
 A serverless AWS application that receives aircraft POS messages, parses the data, calculates fuel information, and stores flight information using AWS managed services.
 
-## Architecture
-
-```mermaid
-flowchart LR
-    Client --> API[API Gateway]
-    API --> Parser[Parser Lambda]
-    Parser --> S3[S3]
-    Parser --> Queue[SQS]
-    Queue --> Calculator[Calculator Lambda]
-    Calculator --> DynamoDB[(DynamoDB)]
-    Parser --> DynamoDB
-```
-
 ## Project Structure
 
 ```text
